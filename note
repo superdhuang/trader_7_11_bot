@@ -2,3 +2,7 @@
 > gcloud source repos clone trader-info-bot [target directory]
 2. deploy
 > python -m py_compile main.py ; gcloud app deploy; gcloud app logs tail -s default
+
+
+外資持股資料
+http://www.twse.com.tw/fund/MI_QFIIS?response=html&date=20180807&selectType=ALLBUT0999
