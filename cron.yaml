@@ -1,0 +1,5 @@
+cron:
+- description: 
+  url: /
+  schedule: every mon,tue,wed,thu,fri 14:45
+  timezone: Asia/Taipei

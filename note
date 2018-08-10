@@ -1,0 +1,4 @@
+1. get repo
+> gcloud source repos clone trader-info-bot [target directory]
+2. deploy
+> python -m py_compile main.py ; gcloud app deploy; gcloud app logs tail -s default

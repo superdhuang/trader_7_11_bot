@@ -1,0 +1,14 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: main.app
+
+libraries:
+- name: lxml
+  version: 2.3
+
+env_variables:
+  GAE_USE_SOCKETS_HTTPLIB: 'true'
